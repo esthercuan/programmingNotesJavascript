@@ -53,8 +53,10 @@ Variables allow you to represent and work with data. They are english names, and
 	var pet;
 
 The **=** is an assigned operator, not a defining operator. So the following declaration would be wrong: 
+
 	var = name; 
 An example of a correct statement would be: 
+
 	var name = Esther; 
 A variable can reference any kind of data. Tweets, movies, words, numbers, etc. 
 
@@ -69,9 +71,6 @@ A variable can reference any kind of data. Tweets, movies, words, numbers, etc.
 	console.log(firstName  + ' is ' + "age" + " years " + " old.")
 	// outputs: Esther is 26 years old. 
 
-## Variables vs. Literals
-
-Order matters. The processor executes from top to bottom. 
 
 ## Data types 
 

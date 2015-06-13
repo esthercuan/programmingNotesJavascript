@@ -19,7 +19,7 @@ All code should live inside a function.
 - **return**: returns something back to the caller, so the caller can then do something after with it. 
 - **side effect**: when a function does not return anything,but something else happens. It is  not explicit. 
 
-## Exercise of simple math functions co
+## Exercises of simple math functions 
 
 	function areaCircle (radius){
 	return Math.PI * radius *radius;
@@ -33,3 +33,10 @@ All code should live inside a function.
 	function simpleInterest (principal,interest,time){
 	return principal * interest * time;
 	}
+
+## Lets talk about Memory, CPU and Storage
+- **memory**: all software requires to be loaded into memory. It is volatile and short term, in other words, it means that the contents of memory reset when you turn your computer off. 
+- **storage**: storing your data physically. Long term memory. 
+- **processor**: the CPU. It executes all the commands and instructions from memory. Basically taking numbers and pushing them to registers. Anything that can be boiled down to numbers is able to be computed. 
+
+The process of computing software requires to fetch files from storage, loaded into main memory, and then processed. 

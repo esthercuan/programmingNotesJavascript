@@ -1,0 +1,31 @@
+Functions are how you organize your code. 
+All code should live inside a function.
+
+
+	function sayHello () { 
+
+		//body of the function 
+	
+	}
+
+	//Call the sayHello function
+
+	sayHello();
+
+
+**side effect**: when a function does not return anything,but something else happens. It is  not explicit. 
+**return**: returns something back to the caller, so the caller can then do something after with it. 
+
+
+	function areaCircle (radius){
+	return Math.PI * radius *radius;
+
+	}
+
+	function areaTriangle (base,height){
+	return (base * height)/ 2; 
+	}
+
+	function simpleInterest (principal,interest,time){
+	return principal * interest * time;
+	}

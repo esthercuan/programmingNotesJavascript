@@ -1,7 +1,7 @@
 
 #Functions
-##Functions are how you organize your code. 
-###All code should live inside a function.
+Functions are how you organize your code. 
+All code should live inside a function.
 
 #Example: 
 

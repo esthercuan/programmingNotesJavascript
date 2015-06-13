@@ -52,7 +52,7 @@ Variables allow you to represent and work with data. They are english names, and
 	var age; 
 	var pet;
 
-The **=** is an assigned operator, not a defining operator. So the following declaration would be wrong: 
+The **'='** is an assigned operator, not a defining operator. So the following declaration would be wrong: 
 
 	var = name; 
 An example of a correct statement would be: 
@@ -73,6 +73,9 @@ A variable can reference any kind of data. Tweets, movies, words, numbers, etc.
 
 
 ## Data types 
+
+You may click [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures) and get an extensive explanation on Data types: 
+
 
 1.  Numbers (1,2,3…)
 2.  Strings (words) 

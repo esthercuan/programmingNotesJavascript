@@ -15,10 +15,11 @@ All code should live inside a function.
 
 	sayHello();
 
+## Not all functions need a return value 
+- **return**: returns something back to the caller, so the caller can then do something after with it. 
+- **side effect**: when a function does not return anything,but something else happens. It is  not explicit. 
 
-**side effect**: when a function does not return anything,but something else happens. It is  not explicit. 
-**return**: returns something back to the caller, so the caller can then do something after with it. 
-
+## Exercise of simple math functions co
 
 	function areaCircle (radius){
 	return Math.PI * radius *radius;

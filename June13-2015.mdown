@@ -40,3 +40,50 @@ All code should live inside a function.
 - **processor**: the CPU. It executes all the commands and instructions from memory. Basically taking numbers and pushing them to registers. Anything that can be boiled down to numbers is able to be computed. 
 
 The process of computing software requires to fetch files from storage, loaded into main memory, and then processed. 
+**Why is this important**? As a programmer, everything you do is manipulating data in memory. *Programming is all about the manipulation of data in the main memory (the temporal one)*
+
+# Variables 
+
+Variables allow you to represent and work with data. They are english names, and they reference a place in memory. 
+
+## Declaring Variables
+
+	var name; 
+	var age; 
+	var pet;
+
+The **=** is an assigned operator, not a defining operator. So the following declaration would be wrong: 
+	var = name; 
+An example of a correct statement would be: 
+	var name = Esther; 
+A variable can reference any kind of data. Tweets, movies, words, numbers, etc. 
+
+## Exercises in Variables 
+
+	function declareSomeVariables() {
+		//declare strings
+		var firstName = "Esther";
+		var age = 26;
+	}
+
+	console.log(firstName  + ' is ' + "age" + " years " + " old.")
+	// outputs: Esther is 26 years old. 
+
+## Variables vs. Literals
+
+Order matters. The processor executes from top to bottom. 
+
+## Data types 
+
+1.  Numbers (1,2,3…)
+2.  Strings (words) 
+3.  Booleans 
+4.  Undefined and null
+5.  Array [1,2,3,…]
+6.  Objects {object} 
+
+
+
+
+
+

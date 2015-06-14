@@ -71,7 +71,33 @@ A variable can reference any kind of data. Tweets, movies, words, numbers, etc.
 	console.log(firstName  + ' is ' + "age" + " years " + " old.")
 	// outputs: Esther is 26 years old. 
 
+### Lets Calculate Age 
 
+	function nameAge (){
+    var name = prompt("What is your name");
+    var lastname = prompt("What is last name");
+    var year = prompt("What is year of birth");
+    var age = 2015 - year;
+    
+    alert(name + " "+ lastname + " you are " + age + " years old!"); 
+	}
+
+	nameAge();
+
+
+### Lets Calculate Farenheight to Celsius
+
+	// This is the formula: (F - 32) * 5/9 = C 
+
+	function farenCelcius (farenheight){
+	    var farenheight = parseInt(prompt("what is the temperature in farenheight"));
+	    var celcius= (farenheight - 32) * 5/9 
+	    alert("Your temperature in Celcius is" + celcius.toFixed(2));
+	    // the function .toFixed() recieves a number of how many decimals to round up to
+	    
+	}
+
+	farenCelcius();
 ## Data types 
 
 You may click [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures) and get an extensive explanation on Data types: 

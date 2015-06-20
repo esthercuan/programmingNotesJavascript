@@ -12,9 +12,96 @@ You may click [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Dat
 
 ## Variables vs. Literals 
 
-Literals do not change. Ex. "Hello Cat" is a string literal.
-Variables change. Ex. var myCat = "Hello Cat" where **myCat** is a variable that can change depending on what you make it equal to. 
+1. Literals do not change. Ex. "Hello Cat" is a string literal.
 
- 
+2. Variables change. Ex. var myCat = "Hello Cat" where **myCat** is a variable that can change depending on what you make it equal to. 
+
+## New syntax on Variables 
+
+Variables can be reset to different values by using the **=** sign. 
+	
+	var x=2; 
+	x= x+10; // x becomes 30 
+	x+=2; // x becomes x+2 = 32  
+	x-=1; // x becoms x-1 = 31 
+
+You may use all of the math symbols with the **=** sign. ( /=, *=,+=,-=)
+
+## Functions Review 
+
+Remember that returning something from a function is quite important. This way the value returned can be re-used for another purpose.  
+
+#### Exercise 1 in class 
+
+	// Create a function that does String Operations 
+
+	 function concat() {
+	 	var firstName = prompt("First Name please");
+	 	var lastName = prompt("Last Name please");
+	 	var forFun = prompt("what you do for fun");
+
+	 	alert(firstName + " " +lastName + " loves to " + forFun);
+	 }
+
+	 concat();
+
+Pseudo code for the above exercise. 
+
+1. Create 3 prompts 
+2. Store the prompts in variables 
+3. Use the variables to create a string in an alert function
+
+
+#### Exercise 2 in class 
+
+
+	/* Create a functions that ads two numbers and returns the value either in console.log or via an alert.*/
+
+	function addTwo (x,y) { 
+		console.log(x+y); 
+	}
+
+	addTwo(2,3);
+
+Pseudo code: 
+
+1. Create a function that recieves 2 numbers
+2. Log to the Console the addition of the 2 numbers
+3. Call the function
+
+
+
+#### Exercise 3 in class 
+
+
+	/* Create a functions that computes the average age of three people. */
+
+
+	// passing argument 
+
+	function averageAge (x,y,z) { //parameters are local
+		var average = (x+y+z)/3;	
+		console.log(average);
+
+	}
+
+	averageAge (12,15,20);
+
+	// asking for the age to the user 
+
+	function averAge2 () {
+		var x = prompt("age 1 please"); 
+		var y = prompt("age 2 please"); 
+		var z = prompt("age 3 please"); 
+
+		var average2 = ((parseInt(x)+parseInt(y)+parseInt(z))/3);
+		console.log(average2.toFixed(2));
+	}
+
+	averAge2();
+
+**Methods:** functions specific to a data type, such as .toFixed which runs only on decimals or integers.
+
+
 
 

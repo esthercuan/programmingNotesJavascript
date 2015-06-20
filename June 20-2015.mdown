@@ -277,7 +277,7 @@ try to use: "==" "!=" "&&"  "||"
 	fly();
 
 
-Thank you everyone for reading my notes! See you next class. 
+Thank you everyone for reading my notes! See you next class. If you see any typos or any mistakes please let me know ! or feel free to change it ^^
 
 
 

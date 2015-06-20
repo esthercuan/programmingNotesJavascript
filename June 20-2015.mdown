@@ -276,3 +276,9 @@ try to use: "==" "!=" "&&"  "||"
 
 	fly();
 
+
+Thank you everyone for reading my notes! See you next class. 
+
+
+
+

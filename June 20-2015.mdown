@@ -133,15 +133,6 @@ If I have a pony, then I want to ride. Else, walk.
 
 Create a function that takes in ages from 4 users and computes the max age of all the users. It returns the oldest person in the group. 
 
-Pseudo code: 
-
-1. Ask for ages 
-2. Convert the string ages to numbers 
-3. Compare 1 with 2 and return the max. 
-3. Compare the max with 3 and set max again. 
-4. Compare the max with 4 and set max again. 
-5. Return max and print it out! 
-
 	function compareAge (){
 
 		var person1 = prompt("Person 1 age please"); 
@@ -167,12 +158,21 @@ Pseudo code:
 			return maxAge; 
 		} else { maxAge = person4};
 
-		console.log("The oldes person in this group is" + maxAge);
+		console.log("The oldest person in this group is" + maxAge);
 	}
 
 	compareAge();
 
 
+Pseudo Code: 
+
+1. ask age of each person
+2. chage the prompt to integers
+3. Compare age 1 and age 2, return the max
+4. Compare the max with age 3 and return the max 
+5. Compare the max with age 4 and return the max
+
+There are better ways to do this, but this is how you would do it with only `if` and `else` statements. 
 
 
 

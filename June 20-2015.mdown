@@ -119,10 +119,10 @@ Pseudo code:
 **Comparing** is written as `<` or `>` or `<=` or `>=`
 which compare two things. One great us for these is an if and else statemnet. If there is more than one type of comparison that needs to be done, these an come in handy: 
 
-`==`: equal to
-`!=` : not equal to
-`&&`: and 
-`||`: or 
+- `==`: equal to
+- `!=` : not equal to
+- `&&`: and 
+- `||`: or 
 
 
 
@@ -257,7 +257,7 @@ Create a function that asks for the gender of the patron and their age. If they 
 
 #### 4
 Create a function that asks the user the "from" and "to" that they are flying to.(create an alert to tell them there is an error if "to" and "from" are the same)(we only want flight prices between sfo, lax, and nyc)
-try to use: "==" "!=" "&&"  "||" */
+try to use: "==" "!=" "&&"  "||" 
 
 	function fly () { 
 		var to = prompt("where to");

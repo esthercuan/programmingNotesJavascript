@@ -106,7 +106,7 @@ You may click [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Dat
 1.  Numbers (1,2,3…)
 2.  Strings (words) 
 3.  Booleans 
-4.  Undefined and null
+4.  Undefined and null. (Null is when you expect an answer, but there is no answer.)
 5.  Array [1,2,3,…]
 6.  Objects {object} 
 

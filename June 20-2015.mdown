@@ -100,7 +100,16 @@ Pseudo code:
 
 	averAge2();
 
-**Methods:** functions specific to a data type, such as .toFixed which runs only on decimals or integers.
+**Methods:** functions specific to a data type, such as .toFixed which runs only on decimals or integers. The difference between a function and a method, is that method **is** a function while a function is a process. 
+
+
+## Expressions and operators 
+
+[Here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators) is the link to an extensive guide for operators in javascript. 
+
+#### Some new operators seen in class: 
+
+**Module:** is written as `%` and it returns the integer remainder of divind two operands. `12 % 5` returns `2`. 
 
 
 

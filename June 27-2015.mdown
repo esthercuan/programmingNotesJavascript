@@ -123,11 +123,33 @@ Ok so now that we know how to point at arrays by using **index**, we can now mod
 
 # Loops 
 
-We want to 'loop' through arrays by using our friend the **index**. 
+We want to 'loop' through arrays by using our friend the **index**.  
+Here is our syntax: 
 
+	for (var i = 0; i >= 0; i++) {
+		//Do stuff
+	};
 
+Lets break it down to components.  
+The `for` defines a loop. The `()` is going to take the conditions of the loops, or in other words denominates the start and end of the loop. The `{}` is where you define what you want to modify in the array. In the teacher's words "we want to do a bunch of stuff, a bunch of times and not have to code it every time for every element." 
 
+Now lets break them apart even further.  
 
+The loop body is what goes between the `()`. 
+	- the `var i = 0;` is the loop initialization. It is just a variable called `i` that holds the number 0. But as you probably guessed it, is going to be our index for the array. 
+	- the middle chunk is the loop condition. `i < 3` means: so long as this condition evaluates as true, the body of the loop will continue executing. So this means that `i` starts at a certain number, but at some point it has to change. 
+	- `i++` is how you change it. It the representation of `i = i + 1`.  
+
+In simple words, `i` is your pointer/index. This `i` will jump through the array one element at the time until the condition is no longer met. In this case `i < 3`. 
+Lets look at an example: 
+
+	function doLoopStuff(){
+	for (var i = 0;i < 3;i++) {
+		console.log('hello Kitty');
+	}
+	}
+
+This little program will console.log the string 'hello kitty' 3 times. 
 
 Thank you everyone for reading my notes! See you next class. If you see any typos or any mistakes please let me know ! or feel free to change it ^^
 

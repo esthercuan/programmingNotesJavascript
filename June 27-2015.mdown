@@ -1,0 +1,32 @@
+# Welcome to week 5 
+It has been a great experience to study at GA. 
+Before we start I wanted to share a great resource. If you would like a textbook to accompany/review the knowledge we are studying [Eloquent Javascript](http://eloquentjavascript.net/) is a great book! It is free, and one of the best javascript books written. On the website, you can pratice in-book because each example and exercise is going to be a console itself. So use this to practice daily! 
+
+
+Now let's review some concepts that we have covered. 
+
+Everything is a function, a pipeline for problem solving. The key to successful functions is a clear understanding of data types and what variable holds what type of data. The return value is very important because it is the output of every function. You want to `return` because this allows the function to spit out something that you can use later. 
+
+Lets review the homework: 
+
+	function addTwoNumbers(x,y) { //remember the vocabulary : parameters and arguments. 
+	  		return x + y;
+		}
+
+
+	function addTwoNumbersChained () {
+			var sum = addTwoNumbers(1,2);
+			var anotherSum = sum + addTwoNumbers(3,4);
+			return anotherSum; 
+	}
+
+	addTwoNumbersChained();
+	// the function is doing: 1+2 = 3 and then 3 + (3+4) = 10. 
+
+
+
+Thank you everyone for reading my notes! See you next class. If you see any typos or any mistakes please let me know ! or feel free to change it ^^
+
+
+
+

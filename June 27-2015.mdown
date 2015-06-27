@@ -98,7 +98,7 @@ So, if we have this array:
 	
 	var myArray = [1,2,3];
 
-The index number 0 would be 1, index 1 would be 2 and index 2 would be 3. To get the index of an array you would call it like this: 
+The index number 0 would be 1, index 1 would be 2 and index 2 would be 3. The reason why we start counting from **0** is neatly explained in this [awesome link](http://www.cs.utexas.edu/users/EWD/ewd08xx/EWD831.PDF) that Jazmin (classmate) showed us. To get the index of an array you would call it like this: 
 
 	var myArray[1];
 

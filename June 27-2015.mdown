@@ -26,7 +26,7 @@ Lets review the homework:
 
 **If you only initialize a variable and not assign it a value, it will automatically be assigned the `undefined` value.** 
 
-A great way to follow an `if else` statement is to follow your variable's value: 
+A great way to follow an `if else` statement is to follow your variable's value. `if` and `else` are not mutually exclusive. It means that they are quite independant of each other. 
 
 	function computeMinAge() {
 	  var firstAge = 32;
@@ -49,6 +49,37 @@ A great way to follow an `if else` statement is to follow your variable's value:
 	  
 	  console.log(minAge); //returns the current value of minAge which is 26
 	}
+
+indexOf is a **Method** that searches a string for a specific substring. For this exercise we should remember that computers like to start counting at **0**. 
+
+	function contains (string,subString){
+	if (string.indexOf(subString)== -1){
+		return false;
+	} else {
+		return true;
+	}
+	}
+
+	function validate (firstName, lastName,email){
+		if (firstName==''){
+		return false;
+	}
+		if (lastname ==''){
+		return false;
+	}
+		if (contains(email,'@')==false){
+			return false;
+		}
+		if(contans(email,".")== false){
+			return false;
+		}
+
+		return true; 
+	}
+
+
+Great software engineering is encapulating code. 
+
 
 Thank you everyone for reading my notes! See you next class. If you see any typos or any mistakes please let me know ! or feel free to change it ^^
 

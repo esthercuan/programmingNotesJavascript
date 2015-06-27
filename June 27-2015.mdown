@@ -91,7 +91,41 @@ Syntax:
 This is a variable named `array` set to store multiple ordered values. In this case `array` is storing `1,2,3`
 With arrays, you can start managing multiple sets of information. Grouping data together in a list is important because it allows you to manipulate it easily. Life without arrays would be absolutely terrible. Imagine having to manipulate data one by one. *yuk face* 
 
- 
+Arrays can have all types of data. If you need a refresher of data types you can view my notes on it [here](https://github.com/esthercuan/programmingNotesJavascript/blob/master/June%2020-2015.mdown).
+
+To go through arrays you also have to understand how the computer goes through arrays. This is where we use **index**. View **index** as a pointing finger that is always a number between 0- and the lentgh of your array. 
+So, if we have this array:
+	
+	var myArray = [1,2,3];
+
+The index number 0 would be 1, index 1 would be 2 and index 2 would be 3. To get the index of an array you would call it like this: 
+
+	var myArray[1];
+
+Would tell you that on *position 1* we have the *number 2.* 
+A very useful way to modify arrays is using the method `.length`
+
+This is a method that allows you to manipulate the array through its length. You call it like this: 
+
+	var theLengthOfMyArray = myArray.length; 
+
+So the variable `theLengthOfMyArray` is now 3. 
+Ways to play with this: 
+
+	myArray[myArray-1]; 
+
+This above statement is calling for the index that is **1 less than the length of the array**. In other words it is referencing the *last index*. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

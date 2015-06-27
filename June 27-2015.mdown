@@ -151,7 +151,81 @@ Lets look at an example:
 
 This little program will console.log the string 'hello kitty' 3 times. 
 
-Thank you everyone for reading my notes! See you next class. If you see any typos or any mistakes please let me know ! or feel free to change it ^^
+	function doLoopStuff(){
+	for (var i = 0;i < 3;i++) {
+		console.log(i);
+	}
+	}
+
+This program will log the value of `i` at every iteration. So: 0 1 2.
+`i` is going to be the index of our array. This index is going to jump sequentially between elements of the array. 
+
+	function doLoopStuff(){
+	var folks = ['mom','dad','sis'];
+
+	for (var i = 0;i < 3 ;i++) {
+		console.log(folks[i]);
+	}
+	} 
+
+This program is going to log all of the elements of the array `folks`. This happens because `i` varies from 0 - 2. If you call the array at index `i` it will spill the contents of the array at the index `i`. In other words, if `i` is 0 it will spill the position 0 of `folks`. When you don't know the length of your array, we can use the `.length` function. 
+
+## Just remember that the length of the array is not the same as the content of index.
+While the length of the array may be 3, index starts at 0 so at the third element the index would be 2. 
+
+Now we can start modifying each element of an array. Think about it as a `for each element in an array, do this.` 
+
+#### Examples from class
+
+
+	function computeSum(){ 
+		var numbers = [36,24,98,22];
+		var sum = 0;
+		for (var i = 0; i < numbers.length; i++) {
+			sum = sum + numbers[i];
+			console.log(sum);
+
+		}
+	}
+
+	computeSum();
+
+// computeMinAge
+
+	function computeMinAge() {
+		var ages = [32,16,2,46,55];
+		var minAge = ages[0]; 
+
+		for (var i = 0; i < ages.length; i++) { 
+			if (ages[i]<minAge){ // if you encounter a younger then minAge becomes the youngest. 
+				minAge = ages[i];
+			}
+		}
+		console.log('the youngest is ' + minAge +' years old.');
+	}
+
+	computeMinAge();
+
+//computeMaxAge without hardcoding an array 
+
+	function computeMaxAge(ages){
+		var maxAge = ages[0];
+		for (var i = 0; i < ages.length; i++) {
+			if (ages[i]>maxAge) {
+				maxAge = ages[i];
+			}
+		}
+		console.log ('the oldest is ' + maxAge + ' years old.')
+	}
+
+	computeMaxAge([34,54,65,23])
+
+
+
+
+
+Thank you everyone for reading my notes! If you see any typos or any mistakes please let me know ! or feel free to change it ^^
+
 
 
 

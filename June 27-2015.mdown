@@ -24,6 +24,31 @@ Lets review the homework:
 	// the function is doing: 1+2 = 3 and then 3 + (3+4) = 10. 
 
 
+**If you only initialize a variable and not assign it a value, it will automatically be assigned the `undefined` value.** 
+
+A great way to follow an `if else` statement is to follow your variable's value: 
+
+	function computeMinAge() {
+	  var firstAge = 32;
+	  var secondAge = 44;
+	  var thirdAge = 26;
+
+	  var minAge = 9999; // minAge is 9999
+
+	  if (firstAge < minAge) {
+	    minAge = firstAge; // minAge is changed to 32
+	  }
+
+	  if (secondAge < minAge) {
+	    minAge = secondAge; //minAge is still to 32 because it is smaller than secondAge = 44;
+	  }
+
+	  if (thirdAge < minAge) {
+	    minAge = thirdAge; //minAge is changed to 26 because thirdAge is smaller than minAge which up till now was 32
+	  }
+	  
+	  console.log(minAge); //returns the current value of minAge which is 26
+	}
 
 Thank you everyone for reading my notes! See you next class. If you see any typos or any mistakes please let me know ! or feel free to change it ^^
 

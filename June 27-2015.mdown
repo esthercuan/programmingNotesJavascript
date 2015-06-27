@@ -81,7 +81,8 @@ indexOf is a **Method** that searches a string for a specific substring. For thi
 Great software engineering is encapulating code. 
 
 
-# Arrays and Objects 
+# Arrays 
+
 Data comes from the server. Data usually comes in groups. There has to be a good way to process groups of data. This is where **Arrays** come to play. Lets learn how to process arrays and objects. 
 
 Syntax: 
@@ -91,7 +92,7 @@ Syntax:
 This is a variable named `array` set to store multiple ordered values. In this case `array` is storing `1,2,3`
 With arrays, you can start managing multiple sets of information. Grouping data together in a list is important because it allows you to manipulate it easily. Life without arrays would be absolutely terrible. Imagine having to manipulate data one by one. *yuk face* 
 
-Arrays can have all types of data. If you need a refresher of data types you can view my notes on it [here](https://github.com/esthercuan/programmingNotesJavascript/blob/master/June%2020-2015.mdown).
+Arrays can have all types of data. If you need a refresher of data types you can view my notes on it [here](https://github.com/esthercuan/programmingNotesJavascript/blob/master/June%2020-2015.mdown). But that list is not limited. You can store many things in arrays, including html tags, objects, functions, etc. 
 
 To go through arrays you also have to understand how the computer goes through arrays. This is where we use **index**. View **index** as a pointing finger that is always a number between 0- and the lentgh of your array. 
 So, if we have this array:
@@ -116,11 +117,13 @@ Ways to play with this:
 
 This above statement is calling for the index that is **1 less than the length of the array**. In other words it is referencing the *last index*. In this case the result of `my.Array.length-1` is 3 -1 = 2. The index of 2 points at the number 3 in our myArray. 
 
-
 Hope this makes sense! Now go take a break. 
 
+Ok so now that we know how to point at arrays by using **index**, we can now modify elements in the array. The way we do it is through **Loops**. 
 
+# Loops 
 
+We want to 'loop' through arrays by using our friend the **index**. 
 
 
 

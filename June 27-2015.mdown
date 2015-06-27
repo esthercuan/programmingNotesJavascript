@@ -112,9 +112,9 @@ This is a method that allows you to manipulate the array through its length. You
 So the variable `theLengthOfMyArray` is now 3. 
 Ways to play with this: 
 
-	myArray[myArray-1]; 
+	myArray[myArray.length-1]; 
 
-This above statement is calling for the index that is **1 less than the length of the array**. In other words it is referencing the *last index*. 
+This above statement is calling for the index that is **1 less than the length of the array**. In other words it is referencing the *last index*. In this case the result of 
 
 
 

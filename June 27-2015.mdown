@@ -114,14 +114,10 @@ Ways to play with this:
 
 	myArray[myArray.length-1]; 
 
-This above statement is calling for the index that is **1 less than the length of the array**. In other words it is referencing the *last index*. In this case the result of 
+This above statement is calling for the index that is **1 less than the length of the array**. In other words it is referencing the *last index*. In this case the result of `my.Array.length-1` is 3 -1 = 2. The index of 2 points at the number 3 in our myArray. 
 
 
-
-
-
-
-
+Hope this makes sense! Now go take a break. 
 
 
 

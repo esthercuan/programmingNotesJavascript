@@ -221,8 +221,35 @@ Now we can start modifying each element of an array. Think about it as a `for ea
 	computeMaxAge([34,54,65,23])
 
 
+# Objects 
+Arrays are very valuable when you want to sequentially change data. But when you would like to look up data thats when **Objects** become useful. Objects organize arbitrary collections of properties. We can add or take away these properties as we want. Let's look at the syntax: 
 
+	var ginkoTree = { 
 
+		branch: 'thick', // the comma separates each property. 
+		leaf: 'fan shape', // as you can see, I can invent properties and assign them whatever data type I want. In this case its a string. 
+		bark: 'light brown'
+	};
+
+Another name for the properties defined in objects is **key**. The **key**, **maps** to a value that you assign to it. 
+
+	function doObjectStuff(){
+		var prez = {
+		 first: 'Barack',
+		 last: 'Obama',
+		 age: 53,
+		 children: ['Sasha', 'Malia'],  // Yes, the children key references an array!
+
+		 address: {
+		   streetNumber: 1600,
+		   streetName: 'Pennsylvania',
+		   district: 'Washington DC',
+		   council: ['Smith', 'Johnson']
+		 }
+		};
+		console.log (prez.first) // this is how you call the keys within the objects. The console will log 'Barack'
+	}
+You can nest objects within objects. That is what JSON is! 
 
 Thank you everyone for reading my notes! If you see any typos or any mistakes please let me know ! or feel free to change it ^^
 

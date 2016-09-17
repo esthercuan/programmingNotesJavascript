@@ -8,5 +8,5 @@ If you are part of the GA FEWD-32 class, then you should be able to locate which
   
   Hope you guys are able to find these helpful! 
   
-  yours, 
+  Yours, 
   E. 
